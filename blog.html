@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <!-----------Blog page content------------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ullam error minima,
+                     accusamus sit dolorem blanditiis commodi temporibus sapiente illo magnam iste? Laudantium voluptatibus, illum, 
+                    recusandae nihil hic provident quam nobis officia dicta voluptates et?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores
+                         temporibus nesciunt voluptatibus architecto debitis provident, minus aperiam ut rem, numquam doloremque dolores qui veritatis
+                         unde dolorem eveniet? Expedita est voluptas alias maxime accusamus Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                         Ullam sint ut iste ratione exercitationem numquam dolores quae reiciendis! Assumenda, aliquid!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Corrupti ullam facere distinctio inventore a quam deleniti, neque sapiente tempora numquam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis perspiciatis
+                     enim beatae, ipsam, quaerat et repellendus quam nostrum sed quisquam consequatur rem corporis dignissimos minima provident! Soluta veniam eius assumenda 
+                    quo nostrum ipsa architecto voluptatum unde! Earum voluptatibus voluptates quisquam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi inventore sed dolore neque dignissimos.
+                     Sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, iusto.</p>
+                <div class="comment-box">
+                    <h3>Leave Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" name="" id="" placeholder="Enter Name">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <Span>Business Analytics</Span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <Span>Programming In Java</Span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <Span>Web Development</Span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <Span>Programming in Pytho</Span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <Span>Data Structures</Span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <Span>MYSQL</Span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <Span>Computer Networks</Span>
+                    <span>24</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------footer-------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quisquam
+             eius magnam culpa quo dignissimos, illo modi nostrum sint optio.<br> Debitis
+             inventore harum dicta aliquam ducimus, veritatis cupiditate minus tempora.</p>
+             <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i> 
+                <i class="fa fa-twitter" aria-hidden="true"></i> 
+                <i class="fa fa-instagram" aria-hidden="true"></i> 
+                <i class="fa fa-linkedin" aria-hidden="true"></i> 
+             </div>
+             <p>Made With  <i class="fa fa-heart-o" aria-hidden="true"></i> By Shirisha</p>
+    </section>
+
+    <!-- javascript-->
+    
+    <script>
+        var navLinks=document.getElementById("navlinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    </body>
+</html>

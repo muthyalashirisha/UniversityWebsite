@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!------------course----------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, nam.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Non, iusto minima! Exercitationem 
+                    natus in animi soluta? Temporibus officia aliquam labore.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Non, iusto minima! Exercitationem 
+                    natus in animi soluta? Temporibus officia aliquam labore.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Non, iusto minima! Exercitationem 
+                    natus in animi soluta? Temporibus officia aliquam labore.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-----------facilities---------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, qui!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg" alt="">
+                <h3>World class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, in</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/seminar.jpg" alt="">
+                <h3>Seminar Hall</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, in</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/computer hall.webp" alt="">
+                <h3>Computer Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, in</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------footer-------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quisquam
+             eius magnam culpa quo dignissimos, illo modi nostrum sint optio.<br> Debitis
+             inventore harum dicta aliquam ducimus, veritatis cupiditate minus tempora.</p>
+             <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i> 
+                <i class="fa fa-twitter" aria-hidden="true"></i> 
+                <i class="fa fa-instagram" aria-hidden="true"></i> 
+                <i class="fa fa-linkedin" aria-hidden="true"></i> 
+             </div>
+             <p>Made With  <i class="fa fa-heart-o" aria-hidden="true"></i> By Shirisha</p>
+    </section>
+    
+    <!-- javascript-->
+    
+    <script>
+        var navLinks=document.getElementById("navlinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    </body>
+</html>
